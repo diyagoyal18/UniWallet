@@ -6,36 +6,36 @@ import UnauthorisedError from './pages/errors/unauthorised-error.tsx'
 
 const router = createBrowserRouter([
   // Auth routes
-  {
-    path: '/sign-in',
-    lazy: async () => ({
-      Component: (await import('./pages/auth/sign-in.tsx')).default,
-    }),
-  },
-  {
-    path: '/sign-in-2',
-    lazy: async () => ({
-      Component: (await import('./pages/auth/sign-in-2.tsx')).default,
-    }),
-  },
-  {
-    path: '/sign-up',
-    lazy: async () => ({
-      Component: (await import('./pages/auth/sign-up.tsx')).default,
-    }),
-  },
-  {
-    path: '/forgot-password',
-    lazy: async () => ({
-      Component: (await import('./pages/auth/forgot-password.tsx')).default,
-    }),
-  },
-  {
-    path: '/otp',
-    lazy: async () => ({
-      Component: (await import('./pages/auth/otp.tsx')).default,
-    }),
-  },
+  // {
+  //   path: '/sign-in',
+  //   lazy: async () => ({
+  //     Component: (await import('./pages/auth/sign-in.tsx')).default,
+  //   }),
+  // },
+  // {
+  //   path: '/sign-in-2',
+  //   lazy: async () => ({
+  //     Component: (await import('./pages/auth/sign-in-2.tsx')).default,
+  //   }),
+  // },
+  // {
+  //   path: '/sign-up',
+  //   lazy: async () => ({
+  //     Component: (await import('./pages/auth/sign-up.tsx')).default,
+  //   }),
+  // },
+  // {
+  //   path: '/forgot-password',
+  //   lazy: async () => ({
+  //     Component: (await import('./pages/auth/forgot-password.tsx')).default,
+  //   }),
+  // },
+  // {
+  //   path: '/otp',
+  //   lazy: async () => ({
+  //     Component: (await import('./pages/auth/otp.tsx')).default,
+  //   }),
+  // },
 
   // Main routes
   {
