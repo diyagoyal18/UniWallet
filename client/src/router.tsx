@@ -3,7 +3,7 @@ import GeneralError from './pages/errors/general-error.tsx'
 import NotFoundError from './pages/errors/not-found-error.tsx'
 import MaintenanceError from './pages/errors/maintenance-error.tsx'
 import UnauthorisedError from './pages/errors/unauthorised-error.tsx'
-
+//isme boht routes add krne h khud se ab
 const router = createBrowserRouter([
   // Auth routes
   // {
